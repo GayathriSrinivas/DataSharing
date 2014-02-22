@@ -4,5 +4,12 @@
     <string name="app_name">DataSharing</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="radio_success">Success</string>
+    <string name="radio_error">Error</string>
+    <string name="btn_complete">Complete Process</string>
+    <string name="tv_result">Result</string>
+    <string name="btn_sqlite">Sqlite</string>
+    <string name="btn_preferences">Preferences</string>
+    <string name="tv_text">Please select where the data has to be stored.</string>
 
 </resources>

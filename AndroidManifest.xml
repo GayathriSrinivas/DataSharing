@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -22,9 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name="com.cmpe.datasharing.ProcessDataActivity"
-           ></activity>
+        <activity android:name="com.cmpe.datasharing.ProcessDataActivity"/>
+        <activity android:name="com.cmpe.datasharing.SaveDataActivity"/>
+        <activity android:name="com.cmpe.datasharing.ReportDataActivity"/>
+        <activity android:name="com.cmpe.datasharing.CustomerDB"/>
     </application>
 
 </manifest>
